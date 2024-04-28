@@ -1,16 +1,16 @@
 $(document).ready(function() {
-    // Initially the light bulb is off
+    // bydefault the light bulb is off
     let isLightOn = false;
 
     // Function to toggle light on and off
     function toggleLight() {
         if (isLightOn) {
             // Turn light off
-            $('#lightBulb').attr('src', 'bulb1.png');
+            $('#lightBulb').attr('src', 'bulb-off (1).png');
             isLightOn = false;
         } else {
             // Turn light on
-            $('#lightBulb').attr('src', 'bulb2.png');
+            $('#lightBulb').attr('src', 'bulb-on (1).png');
             isLightOn = true;
         }
     }
@@ -19,4 +19,11 @@ $(document).ready(function() {
     $('.light-bulb-container').click(function() {
         toggleLight();
     });
+
 });
+
+
+
+
+
+

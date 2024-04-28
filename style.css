@@ -4,11 +4,28 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #020202;
+    background-color: #686565;
 }
 
 .light-bulb-container {
-    cursor: pointer;
+    position: absolute;
+   margin-left: -145px;
+   margin-top: 370px;
+   height: 40px;
+   width: 90px;
+  border: solid 2px rgb(93, 93, 95);
+  font-size: 17px;
+  border-radius: 50px;
+  
+}
+
+button {
+   background-color: rgb(93, 93, 95);
+}
+
+button:hover {
+    background-color: rgb(200, 255, 0);
+    border: solid 2px rgb(171, 196, 82);
 }
 
 #lightBulb {
