@@ -23,6 +23,17 @@ $(document).ready(function() {
 });
 
 
+function toggle() {
+    var button = document.getElementById("toggleButton");
+
+    if (button.innerHTML == "On") {
+      button.innerHTML = "Bijli ka bill tera baap bhare ga....";
+    } else {
+      button.innerHTML = "On";
+    }
+  }
+
+
 
 
 
