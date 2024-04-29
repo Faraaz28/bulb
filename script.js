@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(function() {
     // bydefault the light bulb is off
     let isLightOn = false;
 

@@ -5,44 +5,26 @@ body {
     height: 100vh;
     margin: 0;
     background-color: rgb(235, 199, 152);
-
- 
-   
 }
 
 .light-bulb-container {
     position: absolute;
-   margin-left: -145px;
-   margin-top: 370px;
-   height: 40px;
-   width: 90px;
-  border: solid 2px white;  
-  font-size: 17px;
-  border-radius: 50px;
-  height: 90px;
-  width: 90px;
-  font-size: 13px;
-  
+    margin-left: -145px;
+    margin-top: 370px;
+    border: solid 2px white;
+    border-radius: 50px;
+    height: 90px;
+    width: 90px;
+    font-size: 13px;
+    background-color: rgb(93, 93, 95);
+
 }
 
-button {
-   background-color: rgb(93, 93, 95);
- 
-  
-  
-}
 
 button:hover {
-    background-color: #3a3124 ;
-    border: solid 2px #1a150f ;
+    background-color: #3a3124;
+    border: solid 2px #1a150f;
     color: rgb(235, 199, 152);
 
-  
-  
-    
 }
 
-#lightBulb {
-    width: 200px; 
-    transition: transform 0.2s ease-in-out;
-}
